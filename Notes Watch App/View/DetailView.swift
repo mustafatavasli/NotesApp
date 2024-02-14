@@ -18,18 +18,14 @@ struct DetailView: View {
     // Notun konumunu gosterecek index degeri
     let index : Int
     
+    // Credits Sayfasi Acilma
+    @State private var isCreditsPresented : Bool = false
+    
     var body: some View {
         VStack(alignment: .center, spacing: 3) {
             
             // Header
-            HStack {
-                Capsule()
-                    .frame(height: 1)
-                Image(systemName: "note.text")
-                Capsule()
-                    .frame(height: 1)
-            }
-            .foregroundColor(.accentColor)
+            HeaderView(title: "")
             // Content
             Spacer()
             ScrollView(.vertical) {
@@ -48,6 +44,12 @@ struct DetailView: View {
                 Spacer()
                 Image(systemName: "info.circle")
                     .imageScale(.large)
+                    .onTapGesture {
+                        isCreditsPresented = true
+                    }
+                    .sheet(isPresented: $isCreditsPresented, content: {
+                        CreditsView()
+                    })
             }
             .foregroundColor(.secondary)
         }
