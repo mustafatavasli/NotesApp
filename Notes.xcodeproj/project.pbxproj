@@ -16,6 +16,7 @@
 		D6D6D8A62B7BFFAC00900C77 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D6D8A52B7BFFAC00900C77 /* DetailView.swift */; };
 		D6F3A8A62B7CB8D200C20895 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F3A8A52B7CB8D200C20895 /* CreditsView.swift */; };
 		D6F3A8A92B7CB97500C20895 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F3A8A82B7CB97500C20895 /* HeaderView.swift */; };
+		D6F3A8AB2B7CBED400C20895 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F3A8AA2B7CBED400C20895 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D6D6D8A52B7BFFAC00900C77 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		D6F3A8A52B7CB8D200C20895 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
 		D6F3A8A82B7CB97500C20895 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		D6F3A8AA2B7CBED400C20895 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				D66649862B7ACC5500FF3A75 /* ContentView.swift */,
 				D6D6D8A52B7BFFAC00900C77 /* DetailView.swift */,
 				D6F3A8A52B7CB8D200C20895 /* CreditsView.swift */,
+				D6F3A8AA2B7CBED400C20895 /* SettingsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6F3A8AB2B7CBED400C20895 /* SettingsView.swift in Sources */,
 				D66649872B7ACC5500FF3A75 /* ContentView.swift in Sources */,
 				D6F3A8A92B7CB97500C20895 /* HeaderView.swift in Sources */,
 				D6D6D8A62B7BFFAC00900C77 /* DetailView.swift in Sources */,
